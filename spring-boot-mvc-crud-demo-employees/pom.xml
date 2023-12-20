@@ -11,9 +11,9 @@
 	</parent>
 	
 	<groupId>com.luv2code.springboot</groupId>
-	<artifactId>thymeleafdemo</artifactId>
+	<artifactId>spring-boot-mvc-crud-demo-employees</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>thymeleafdemo</name>
+	<name>spring-boot-mvc-crud-demo-employees</name>
 	<description>Demo project for Spring Boot</description>
 	
 	<properties>
@@ -21,6 +21,11 @@
 	</properties>
 	
 	<dependencies>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-aop</artifactId>
+		</dependency>
 
 		<dependency>
 			<groupId>com.mysql</groupId>
